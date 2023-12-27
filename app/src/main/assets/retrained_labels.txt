@@ -1,0 +1,4 @@
+rupee1
+rupee10
+rupee2
+rupee5

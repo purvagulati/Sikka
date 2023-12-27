@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/welcomeScreen"
+    android:background="#FFC107"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="You have opened\n\nSikka\nCurrency Coin Reader"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:layout_margin="35sp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textSize="44sp"
+        android:textColor="#000000"
+        android:background="#FFFFFF" />
+
+
+    <!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text = "Sikka"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="22sp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="18dp" />-->
+
+</LinearLayout>
